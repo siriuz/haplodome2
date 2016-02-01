@@ -65,3 +65,8 @@ CELERY_ALWAYS_EAGER = True
 ########## END CELERY
 
 # Your local stuff: Below this line define 3rd party library settings
+
+NOTEBOOK_ARGUMENTS = [
+    '--ip=*',
+    '--port=8888'
+]

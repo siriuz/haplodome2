@@ -17,4 +17,4 @@ cookiecutter-django is set up to use django-environ to read configuration settin
 
 > export DATABASE_URL=postgres://vagrant:vagrant@localhost:5432/vagrant  
 
-Alternatively put it in a .env file outside of the repository root and source it when you start a shell session.
+Alternatively put it in a .env file in the django project directory and it will be read by settings.py at django start up.

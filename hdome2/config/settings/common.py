@@ -46,6 +46,8 @@ THIRD_PARTY_APPS = (
 LOCAL_APPS = (
     'hdome2.users',  # custom users app
     # Your stuff: custom apps go here
+    'pepsite',
+    'pandas_import'
 )
 
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
